@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>ad</title>
+</head>
+<body class="bg-gray-200">
+	<div class="inline-flex">
+	<div>
+  <nav class="bg-white ml-3 w-[200px] h-[620px] mt-5 rounded-[3px] shadow-xl">
+    <div class="inline-flex" >
+    	
+    	<div class="relative inline-flex items-center justify-center w-10 h-10 overflow-hidden bg-red-100 rounded-full dark:bg-gray-600 mt-3 ml-3">
+    <span class="font-medium text-black dark:text-gray-300">GK</span>
+</div>
+<div class="mt-3 ml-2">
+	<h1 class="text-xl font-bold pt-1">Gurukul ERP</h1>
+</div>
+    </div>
+<ul>
+	<li class=" pt-4 pl-8 text-[17px] hover:bg-gray-300">
+		<a href="index.html"><i class="fa fa-home text-2xl  " aria-hidden="true"></i><span class="pl-2">Dashboard</span></a></li>
+		<li class=" text-[17px] pt-4 pl-8 hover:bg-gray-300">
+		<a href="#"><i class="fa fa-pencil-square-o text-2xl " aria-hidden="true"></i><span class="pl-2">Admissions</span></a></li>
+		<li class=" text-[17px] pt-4 pl-8 hover:bg-gray-300" >
+		<a href="#"><i class="fa fa-graduation-cap text-2xl" aria-hidden="true"></i><span class="pl-2">Students</span></a></li>
+		<li class=" text-[17px] pt-4 pl-8 hover:bg-gray-300">
+		<a href="add.html"><i class="fa fa-paypal text-2xl"aria-hidden="true"></i><span class="pl-2">Fees & payment</span></a></li>
+		<li class=" text-[17px] pt-4 pl-8 hover:bg-gray-300">
+		<a href="#"><i class="fa fa-clock-o text-2xl" aria-hidden="true"></i><span class="pl-2">Time Table</span></a></li>
+		<li class=" text-[17px] pt-4 pl-8 hover:bg-gray-300">
+		<a href="#"><i class="fa fa-question-circle text-2xl" aria-hidden="true"></i><span class="pl-2">Quiz</span></a></li>
+		<li class=" text-[17px] pt-4 pl-8 hover:bg-gray-300">
+		<a href="#"> <i class="fa fa-building-o text-2xl " aria-hidden="true"></i><span class="pl-2">Results</span></a></li>
+		<li class=" text-[17px] pt-4 pl-8 hover:bg-gray-300">
+		<a href="#"> <i class="fa fa-address-card text-2xl" aria-hidden="true"></i><span class="pl-2">Departments</span></a></li>
+		<li class=" text-[17px] pt-4 pl-8 hover:bg-gray-300">
+		<a href="#"><i class="fa fa-bell-o text-2xl" aria-hidden="true"></i><span class="pl-2">Notifications</span></a></li>
+		<li class=" text-[17px] pt-4 pl-8 hover:bg-gray-300">
+		<a href="#"> <i class="fa fa-cog text-2xl" aria-hidden="true"></i><span class="pl-2">Settings</span></a></li>
+		<li class=" text-[17px] pt-14 pl-8 hover:bg-gray-300">
+		<a href="#"> <i class="fa fa-sign-out" aria-hidden="true"></i><span class="pl-2">logout</span></a></li>
+
+
+
+</ul>
+
+  </nav>
+  </div>
+ <div>
+ 	
+
+<div class="h-12 w-[950px] bg-white ml-8 rounded-[4px] shadow-md mt-5">
+	<div class="inline-flex">
+	<div>
+		<h1 class="pl-3 text-2xl font-bold pt-2">Dashboard</h1>
+	</div>
+	<div class="ml-24 mt-2">
+		<input class="w-[550px] h-8 bg-gray-100 pl-3 rounded-md border-2 border-inherit" type="text" name="search" placeholder="search...">
+	</div>
+	   <div class="relative inline-block ml-20">
+  <!-- Trigger element -->
+  <div class="flex items-center space-x- ml-3" id="profileTrigger">
+    <img src="1.png" alt="Profile Image" class="w-10 h-10 rounded-full mb-1">
+    <span class="text-gray-800"></span>
+  </div>
+  
+  <!-- Profile popover -->
+  <div class="hidden absolute z-10 -mt-3 p-2 bg-white shadow-md rounded-md" id="profilePopover">
+    <div class="text-gray-800">change user</div>
+    <div class="text-gray-500">help</div>
+    <div class="text-gray-500">Log out</div>
+    <!-- Additional profile information -->
+  </div>
+</div>
+
+<script>
+  const profileTrigger = document.getElementById('profileTrigger');
+  const profilePopover = document.getElementById('profilePopover');
+
+  // Event listener for mouse enter to show profile popover
+  profileTrigger.addEventListener('mouseenter', () => {
+    profilePopover.classList.remove('hidden');
+  });
+
+  // Event listener for mouse leave to hide profile popover
+  profileTrigger.addEventListener('mouseleave', () => {
+    profilePopover.classList.add('hidden');
+  });
+</script>
+  </div>
+	</div>
+
+
+
+<div class="inline-flex ">
+
+
+<div class="w-[180px] ml-3 mt-20 bg-white h-[150px] rounded-xl shadow-xl hover:scale-90">
+	<div class="inline-flex">
+	<div class="mt-10 ">
+		<h1 class="pl-3 text-2xl font-bold">26,550</h1>
+		<p class="pt-2 text-gray-800 pl-3">Totle Students</p>
+	</div>
+	<div class="mt-12 ml-3 ">
+		<img class="w-10 h-10 rounded-full" src="2.png">
+	</div>
+	</div>
+</div>
+<div class="w-[180px] ml-3 mt-20 bg-white h-[150px] rounded-xl shadow-xl hover:scale-90">
+<div class="inline-flex">
+	<div class="mt-10">
+		<h1 class="pl-3 text-2xl font-bold">60</h1>
+		<p class="pt-2 text-gray-800 pl-3">Totle Teachers</p>
+	</div>
+	<div class="mt-12 ml-3">
+		<img class="w-10 h-10 rounded-full" src="3.png">
+	</div>
+	</div>
+
+
+	
+</div>
+<div class="w-[180px] ml-3 mt-20 bg-white h-[150px] rounded-xl shadow-xl hover:scale-90">
+	<div class="inline-flex">
+	<div class="mt-10">
+		<h1 class="pl-3 text-2xl font-bold">26</h1>
+		<p class="pt-2 text-gray-800 pl-3">Totle colleges</p>
+	</div>
+	<div class="mt-12 ml-3">
+		<img class="w-10 h-10 rounded-full" src="4.png">
+	</div>
+	</div>
+</div>
+<div class="w-[180px] ml-3 mt-20 bg-white h-[150px] rounded-xl shadow-xl hover:scale-90">
+	<div class="inline-flex">
+	<div class="mt-10">
+		<h1 class="pl-3 text-2xl font-bold">50,000</h1>
+		<p class="pt-2 text-gray-800 pl-3">Totle Fees</p>
+	</div>
+	<div class="mt-12 ml-6">
+		<img class="w-10 h-10 rounded-full" src="5.png">
+	</div>
+	</div>
+</div>
+<div class=" w-[250px] h-[250px] mt-2 ">
+	<h1 class="text-2xl font-bold">Recent Topper</h1>
+
+	<div class="bg-white w-[250px] h-[200px] ml-3 mt-2 rounded-xl shadow-md">
+		<div class="inline-flex">
+		<div class="ml-4">
+			<h1 class="text-xl font-semibold">profile</h1>
+		</div>
+		<div class="ml-4">
+			<h1 class="text-xl font-semibold">Name</h1>
+		</div>
+		<div class="ml-4">
+			<h1 class="text-xl font-semibold">CGPA</h1>
+		</div>
+		</div>
+		<div class="inline-flex">
+		<div class="mt-2 ml-2">
+			<img class="w-10 h-10 rounded-full" src="6.png">
+			
+		</div>
+		<h1 class="pt-4 pl-3">Yuvraj chohan</h1>
+		<h1 class="pt-4 pl-5">9.64%</h1>
+
+		</div>
+		<div class="inline-flex">
+		<div class="mt-2 ml-2">
+			<img class="w-10 h-10 rounded-full" src="7.png">
+			
+		</div>
+		<h1 class="pt-4 pl-3">vijay rathod</h1>
+		<h1 class="pt-4 pl-8">9.14%</h1>
+
+		</div>
+		<div class="inline-flex">
+		<div class="mt-2 ml-2">
+			<img class="w-10 h-10 rounded-full" src="8.png">
+			
+		</div>
+		<h1 class="pt-4 pl-3">Mayank yadav</h1>
+		<h1 class="pt-4 pl-6">8.84%</h1>
+
+		</div>
+
+	</div>
+	
+</div>
+</div>
+<div class="mt-3 ml-3">
+	<h1 class="text-2xl font-bold">Recent Activity</h1>
+</div>
+<div class="inline-flex">
+<div class="w-[700px] h-[300px] bg-white rounded-xl shadow-xl ml-3 mt-3 mb-3">
+	<table>
+		<tr>
+			<th class="pl-10 pt-4">Name</th>
+			<th class="pl-10 pt-4">College</th>
+			<th class="pl-10 pt-4">Admission</th>
+			<th class="pl-10 pt-4">Amount</th>
+			<th class="pl-10 pt-4">E-mail</th>
+		</tr>
+		<tr>
+			<td class="pl-10 pt-4">Ajay Rathod</td>
+			<td class="pl-10 pt-4" >SDITS</td>
+			<td class="pl-10 pt-4">22-03-2022</td>
+			<td class="pl-10 pt-4">50,000</td>
+			<td class="pl-10 pt-4">ar5035211@gmail.com</td>
+			
+		</tr>
+		<tr>
+			<td class="pl-10 pt-4">Anmol khede</td>
+			<td class="pl-10 pt-4">SDITS</td>
+			<td class="pl-10 pt-4">12-03-2022</td>
+			<td class="pl-10 pt-4">50,000</td>
+			<td class="pl-10 pt-4">ar5035211@gmail.com</td>
+			
+		</tr>
+		<tr>
+			<td class="pl-10 pt-4">Harsh rathore</td>
+			<td class="pl-10 pt-4">SDITS</td>
+			<td class="pl-10 pt-4">4-04-2022</td>
+			<td class="pl-10 pt-4">50,000</td>
+			<td class="pl-10 pt-4">ar5035211@gmail.com</td>
+			
+		</tr>
+		<tr>
+			<td class="pl-10 pt-4">Udit maltare</td>
+			<td class="pl-10 pt-4">SDITS</td>
+			<td class="pl-10 pt-4">2-02-2022</td>
+			<td class="pl-10 pt-4">50,000</td>
+			<td class="pl-10 pt-4">ar5035211@gmail.com</td>
+			
+		</tr>
+		<tr>
+			<td class="pl-10 pt-4">Krishna pagare</td>
+			<td class="pl-10 pt-4">SDITS</td>
+			<td class="pl-10 pt-4">20-02-2022</td>
+			<td class="pl-10 pt-4">50,000</td>
+			<td class="pl-10 pt-4">ar5035211@gmail.com</td>
+			
+		</tr>
+		
+	</table>
+
+
+</div>
+
+<div class="w-[300px] h-[300px] bg-white rounded-xl shadow-xl ml-3 mt-3">
+	<h1 class="text-2xl font-bold flex justify-center">New Students</h1>
+	<div class="flex">
+	<div class="ml-2">
+		<img class="w-10 h-10 rounded-full" src="9.png">
+	</div>
+	<h1 class="pl-3 pt-2">Anil yadav</h1>
+	<div class="mt-3 ml-[74px]">
+		<button class="bg-red-100 w-[70px] rounded-xl h-8 hover:bg-red-300">Details</button>
+	</div>
+		</div>
+		<div class="flex">
+	<div class="ml-2">
+		<img class="w-10 h-10 rounded-full" src="8.png">
+	</div>
+	<h1 class="pl-3 pt-2">Akhlesh pawar</h1>
+	<div class="mt-3 ml-12">
+		<button class="bg-red-100 w-[70px] rounded-xl h-8 hover:bg-red-300">Details</button>
+	</div>
+		</div><div class="flex">
+	<div class="ml-2">
+		<img class="w-10 h-10 rounded-full" src="7.png">
+	</div>
+	<h1 class="pl-3 pt-2">riyaz khan</h1>
+	<div class="mt-3 ml-[74px]">
+		<button class="bg-red-100 w-[70px] rounded-xl h-8 hover:bg-red-300">Details</button>
+	</div>
+		</div>
+		<div class="flex">
+	<div class="ml-2">
+		<img class="w-10 h-10 rounded-full" src="13.png">
+	</div>
+	<h1 class="pl-3 pt-2">neha soni</h1>
+	<div class="mt-3 ml-[74px]">
+		<button class="bg-red-100 w-[70px] rounded-xl h-8 hover:bg-red-300">Details</button>
+	</div>
+		</div>
+		<div class="flex">
+	<div class="ml-2">
+		<img class="w-10 h-10 rounded-full" src="10.png">
+	</div>
+	<h1 class="pl-3 pt-2">Vikash raini</h1>
+	<div class="mt-3 ml-16">
+		<button class="bg-red-100 w-[70px] rounded-xl h-8 hover:bg-red-300">Details</button>
+	</div>
+		</div>
+		<div class="flex">
+	<div class="ml-2">
+		<img class="w-10 h-10 rounded-full" src="11.png">
+	</div>
+	<h1 class="pl-3 pt-2">Aakash yadav</h1>
+	<div class="mt-3 ml-12">
+		<button class="bg-red-100 w-[70px] rounded-xl h-8 hover:bg-red-300">Details</button>
+	</div>
+		</div>
+		
+	
+</div>
+</div>
+ </div>
+</div>
+
+</body>
+</html>
